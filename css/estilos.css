@@ -1,0 +1,180 @@
+html{background-image: url(../images/trabajo-en-equipo-5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.menu{list-style: none;
+padding: 0%;
+background-color: rgb(229, 160, 229);
+margin: auto;
+overflow: hidden;
+border:inset;
+
+}
+
+.menu li a{
+text-decoration: none;
+color: black;
+padding: 14px;
+display: block;
+font-size: medium;
+
+}
+.menu li{
+display: inline-block;
+text-align: center;
+
+}
+
+.menu li a:hover{
+    background-color: darkgrey;
+}
+
+#img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity:1;
+
+}
+
+p{
+    font-family: sans-serif;
+    font-size: large;
+}
+
+
+
+.formulario{
+    width: 800px;
+    margin:5% auto;
+}
+
+.form-area{
+display: flex;
+background: rgba(0,0,0,0.8);
+border-radius: 25px;
+padding: 1.9em;
+}
+
+.msg-area{
+display: flex;
+flex-direction: column;
+order: 2;
+
+}
+
+.msg-area{
+flex: 1;
+min-width: 18em;
+background: transparent;
+color: #fff;
+padding: 15px;
+
+}
+
+.detail-area{
+ flex: 1;  
+ order: 1;
+ margin-right: 2em; 
+}
+
+.detail-area input{
+ width: 100%;
+ background: transparent;
+ color: #fff;
+ border-radius: 40px;
+    
+}
+
+.detail-area input,
+.detail-area button{
+padding: 1em;
+margin-bottom: 1em;
+
+}
+
+.detail-area button{
+background: tomato;
+color: #fff;
+border: 0;
+padding: 15px 50px;
+border-radius: 40px;
+font-family: poppins;
+font-size: 16px;
+text-transform: uppercase;
+
+}
+
+label{
+color: #fff;
+text-transform: uppercase;
+line-height: 40px;
+font-family:audiowide;
+
+}
+
+
+@media screen and (max-width: 360px) {
+  .menu{ width: 740px;}
+  
+  }
+
+
+
+.grid{
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1em;
+    align-items: stretch;
+}
+
+.contenedor{
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 16% 16% 16% 16%;
+    grid-template-rows: 300px 300px;
+    
+}
+
+.animacion{
+
+
+     width: 400px;
+        height: 90px;
+        background: rgb(255, 0, 255);
+        position: relative;
+        animation: mymove 5s infinite;
+    }
+      
+      @keyframes mymove {
+        from {left: 0px;}
+        to {left: 200px;}
+      }
+      
+
+      .transicion{
+        width: 150px;
+        height: 100px;
+        background: rgb(255, 0, 255);
+        transition: width 2s;
+    }
+      
+      .transicion:hover {
+        width: 300px;
+      }
+      
+      .titulo{ text-align: center;}
+
+
+      #img inferior{background-image: url(../images/todos\ para\ uno.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 150px;
+height: 150px;
+
+      }
+
+      
