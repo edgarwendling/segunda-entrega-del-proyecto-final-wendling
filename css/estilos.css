@@ -1,8 +1,11 @@
-html{background-image: url(../images/trabajo-en-equipo-5.jpg);
+html{background-image: url(../images/trabajoenequipo5.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
+
+    
+
 .menu{list-style: none;
 padding: 0%;
 background-color: rgb(229, 160, 229);
@@ -29,6 +32,7 @@ text-align: center;
 .menu li a:hover{
     background-color: darkgrey;
 }
+
 
 #img-center{
     display: block;

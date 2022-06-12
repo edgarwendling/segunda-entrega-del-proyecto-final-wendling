@@ -1,0 +1,26 @@
+.menu{list-style: none;
+    padding: 0%;
+    background-color: rgb(229, 160, 229);
+    margin: auto;
+    overflow: hidden;
+    border:inset;
+    
+    }
+    
+    .menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 14px;
+    display: block;
+    font-size: medium;
+    
+    }
+    .menu li{
+    display: inline-block;
+    text-align: center;
+    
+    }
+    
+    .menu li a:hover{
+        background-color: darkgrey;
+    }
